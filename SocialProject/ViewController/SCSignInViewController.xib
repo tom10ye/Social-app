@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCSignInViewController">
+            <connections>
+                <outlet property="nameField" destination="RQu-BT-oaG" id="aQ4-Cd-tph"/>
+                <outlet property="passwordField" destination="ofi-rb-Mwt" id="bkg-xd-KtX"/>
+                <outlet property="signInButton" destination="0L6-ws-NOe" id="xnC-TW-yuW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RQu-BT-oaG">
+                    <rect key="frame" x="62.5" y="50" width="250" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="Rc6-yX-sxw"/>
+                        <constraint firstAttribute="height" constant="40" id="Wqg-ov-7Ma"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ofi-rb-Mwt">
+                    <rect key="frame" x="62.5" y="110" width="250" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="DxN-gK-g6U"/>
+                        <constraint firstAttribute="height" constant="40" id="cHA-TN-eXm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0L6-ws-NOe">
+                    <rect key="frame" x="62.5" y="175" width="250" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Oz6-P5-Wmb"/>
+                        <constraint firstAttribute="width" constant="250" id="yrA-IC-n2D"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0L6-ws-NOe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JZ4-5c-PF4"/>
+                <constraint firstItem="RQu-BT-oaG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="QGj-JW-9ku"/>
+                <constraint firstItem="0L6-ws-NOe" firstAttribute="top" secondItem="ofi-rb-Mwt" secondAttribute="bottom" constant="25" id="mRR-Xb-LRG"/>
+                <constraint firstItem="ofi-rb-Mwt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="q5N-6k-w2I"/>
+                <constraint firstItem="ofi-rb-Mwt" firstAttribute="top" secondItem="RQu-BT-oaG" secondAttribute="bottom" constant="20" id="vvX-FP-4k2"/>
+                <constraint firstItem="RQu-BT-oaG" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wUv-HZ-2Wb"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

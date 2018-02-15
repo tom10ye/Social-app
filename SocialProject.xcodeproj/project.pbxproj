@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2899F869F2B962A2C4504403 /* libPods-SocialProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F2003A0DB0C7953715E80A /* libPods-SocialProjectTests.a */; };
+		3B6C53A51F48F251001201DD /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C53A41F48F251001201DD /* SCTabBarController.m */; };
+		3B6C53A91F4A3345001201DD /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C53A71F4A3345001201DD /* SCHomeViewController.m */; };
+		3B6C53AA1F4A3345001201DD /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C53A81F4A3345001201DD /* SCHomeViewController.xib */; };
+		3B6C53AE1F4A3C1C001201DD /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C53AC1F4A3C1C001201DD /* SCHomeTableViewCell.m */; };
+		3B6C53AF1F4A3C1C001201DD /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C53AD1F4A3C1C001201DD /* SCHomeTableViewCell.xib */; };
+		3B88A3A81F4FD4A800B4410E /* SCPostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3A71F4FD4A800B4410E /* SCPostManager.m */; };
+		3B88A3AB1F4FD76100B4410E /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3AA1F4FD76100B4410E /* SCUser.m */; };
+		3B88A3AF1F4FDC5C00B4410E /* SCCreatePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3AD1F4FDC5C00B4410E /* SCCreatePostViewController.m */; };
+		3B88A3B01F4FDC5C00B4410E /* SCCreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B88A3AE1F4FDC5C00B4410E /* SCCreatePostViewController.xib */; };
+		3B88A3B41F4FDEAE00B4410E /* SCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3B21F4FDEAE00B4410E /* SCSignInViewController.m */; };
+		3B88A3B51F4FDEAE00B4410E /* SCSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B88A3B31F4FDEAE00B4410E /* SCSignInViewController.xib */; };
+		3B88A3B91F4FE0FD00B4410E /* SCPostDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88A3B71F4FE0FD00B4410E /* SCPostDetailViewController.m */; };
+		3B88A3BA1F4FE0FD00B4410E /* SCPostDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B88A3B81F4FE0FD00B4410E /* SCPostDetailViewController.xib */; };
 		3BAD19DE1F4697FA00DAC41C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD19DD1F4697FA00DAC41C /* main.m */; };
 		3BAD19E11F4697FA00DAC41C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD19E01F4697FA00DAC41C /* AppDelegate.m */; };
 		3BAD19E41F4697FA00DAC41C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD19E31F4697FA00DAC41C /* ViewController.m */; };
-		3BAD19E71F4697FA00DAC41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAD19E51F4697FA00DAC41C /* Main.storyboard */; };
 		3BAD19E91F4697FA00DAC41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAD19E81F4697FA00DAC41C /* Assets.xcassets */; };
 		3BAD19EC1F4697FA00DAC41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAD19EA1F4697FA00DAC41C /* LaunchScreen.storyboard */; };
 		3BAD19F71F4697FA00DAC41C /* SocialProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD19F61F4697FA00DAC41C /* SocialProjectTests.m */; };
 		3BAD1A021F4697FA00DAC41C /* SocialProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD1A011F4697FA00DAC41C /* SocialProjectUITests.m */; };
+		3BAD1A121F46989B00DAC41C /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD1A111F46989B00DAC41C /* SCPost.m */; };
+		3BB2FD251F4D2B3C00EDC842 /* SCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2FD241F4D2B3C00EDC842 /* SCLocationManager.m */; };
+		3BB2FD291F4D2C9700EDC842 /* SCExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB2FD271F4D2C9700EDC842 /* SCExploreViewController.m */; };
+		3BB2FD2A1F4D2C9700EDC842 /* SCExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB2FD281F4D2C9700EDC842 /* SCExploreViewController.xib */; };
+		F6DCE4C3D8BFE3DB72956445 /* libPods-SocialProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2779B852AE689892D66253C /* libPods-SocialProject.a */; };
+		FE52E66C523C4A5E14904069 /* libPods-SocialProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9EC5EAD86C90CCE3F13803 /* libPods-SocialProjectUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +54,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1DD6543EC974C83988073F /* Pods-SocialProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialProject/Pods-SocialProject.release.xcconfig"; sourceTree = "<group>"; };
+		3B6C53A31F48F251001201DD /* SCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTabBarController.h; sourceTree = "<group>"; };
+		3B6C53A41F48F251001201DD /* SCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTabBarController.m; sourceTree = "<group>"; };
+		3B6C53A61F4A3345001201DD /* SCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCHomeViewController.h; path = ViewController/SCHomeViewController.h; sourceTree = "<group>"; };
+		3B6C53A71F4A3345001201DD /* SCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCHomeViewController.m; path = ViewController/SCHomeViewController.m; sourceTree = "<group>"; };
+		3B6C53A81F4A3345001201DD /* SCHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCHomeViewController.xib; path = ViewController/SCHomeViewController.xib; sourceTree = "<group>"; };
+		3B6C53AB1F4A3C1C001201DD /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHomeTableViewCell.h; sourceTree = "<group>"; };
+		3B6C53AC1F4A3C1C001201DD /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHomeTableViewCell.m; sourceTree = "<group>"; };
+		3B6C53AD1F4A3C1C001201DD /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCHomeTableViewCell.xib; sourceTree = "<group>"; };
+		3B88A3A61F4FD4A800B4410E /* SCPostManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPostManager.h; sourceTree = "<group>"; };
+		3B88A3A71F4FD4A800B4410E /* SCPostManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPostManager.m; sourceTree = "<group>"; };
+		3B88A3A91F4FD76100B4410E /* SCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUser.h; sourceTree = "<group>"; };
+		3B88A3AA1F4FD76100B4410E /* SCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUser.m; sourceTree = "<group>"; };
+		3B88A3AC1F4FDC5C00B4410E /* SCCreatePostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCCreatePostViewController.h; path = ViewController/SCCreatePostViewController.h; sourceTree = "<group>"; };
+		3B88A3AD1F4FDC5C00B4410E /* SCCreatePostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCCreatePostViewController.m; path = ViewController/SCCreatePostViewController.m; sourceTree = "<group>"; };
+		3B88A3AE1F4FDC5C00B4410E /* SCCreatePostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCCreatePostViewController.xib; path = ViewController/SCCreatePostViewController.xib; sourceTree = "<group>"; };
+		3B88A3B11F4FDEAE00B4410E /* SCSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSignInViewController.h; path = ViewController/SCSignInViewController.h; sourceTree = "<group>"; };
+		3B88A3B21F4FDEAE00B4410E /* SCSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSignInViewController.m; path = ViewController/SCSignInViewController.m; sourceTree = "<group>"; };
+		3B88A3B31F4FDEAE00B4410E /* SCSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCSignInViewController.xib; path = ViewController/SCSignInViewController.xib; sourceTree = "<group>"; };
+		3B88A3B61F4FE0FD00B4410E /* SCPostDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPostDetailViewController.h; path = ViewController/SCPostDetailViewController.h; sourceTree = "<group>"; };
+		3B88A3B71F4FE0FD00B4410E /* SCPostDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPostDetailViewController.m; path = ViewController/SCPostDetailViewController.m; sourceTree = "<group>"; };
+		3B88A3B81F4FE0FD00B4410E /* SCPostDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCPostDetailViewController.xib; path = ViewController/SCPostDetailViewController.xib; sourceTree = "<group>"; };
 		3BAD19D91F4697FA00DAC41C /* SocialProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAD19DD1F4697FA00DAC41C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BAD19DF1F4697FA00DAC41C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BAD19E01F4697FA00DAC41C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3BAD19E21F4697FA00DAC41C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3BAD19E31F4697FA00DAC41C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3BAD19E61F4697FA00DAC41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BAD19E81F4697FA00DAC41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BAD19EB1F4697FA00DAC41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BAD19ED1F4697FA00DAC41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +91,21 @@
 		3BAD19FD1F4697FA00DAC41C /* SocialProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAD1A011F4697FA00DAC41C /* SocialProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialProjectUITests.m; sourceTree = "<group>"; };
 		3BAD1A031F4697FA00DAC41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAD1A101F46989B00DAC41C /* SCPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPost.h; path = Model/SCPost.h; sourceTree = "<group>"; };
+		3BAD1A111F46989B00DAC41C /* SCPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPost.m; path = Model/SCPost.m; sourceTree = "<group>"; };
+		3BB2FD231F4D2B3C00EDC842 /* SCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLocationManager.h; path = Manager/SCLocationManager.h; sourceTree = "<group>"; };
+		3BB2FD241F4D2B3C00EDC842 /* SCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLocationManager.m; path = Manager/SCLocationManager.m; sourceTree = "<group>"; };
+		3BB2FD261F4D2C9700EDC842 /* SCExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCExploreViewController.h; path = ViewController/SCExploreViewController.h; sourceTree = "<group>"; };
+		3BB2FD271F4D2C9700EDC842 /* SCExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCExploreViewController.m; path = ViewController/SCExploreViewController.m; sourceTree = "<group>"; };
+		3BB2FD281F4D2C9700EDC842 /* SCExploreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SCExploreViewController.xib; path = ViewController/SCExploreViewController.xib; sourceTree = "<group>"; };
+		97F2003A0DB0C7953715E80A /* libPods-SocialProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8A3DE09A392FB91908883F /* Pods-SocialProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialProjectUITests/Pods-SocialProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A798CD3F14DAD5729FD6A0D0 /* Pods-SocialProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialProjectUITests/Pods-SocialProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2779B852AE689892D66253C /* libPods-SocialProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9EC5EAD86C90CCE3F13803 /* libPods-SocialProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEDFF4D23CD51928FC45A42 /* Pods-SocialProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialProjectTests/Pods-SocialProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		F839BC88FA0467F363841315 /* Pods-SocialProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialProject/Pods-SocialProject.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7BA8C3708F5BF6732E9BF0 /* Pods-SocialProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialProjectTests/Pods-SocialProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DCE4C3D8BFE3DB72956445 /* libPods-SocialProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2899F869F2B962A2C4504403 /* libPods-SocialProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +129,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE52E66C523C4A5E14904069 /* libPods-SocialProjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B6C53A21F48F1BF001201DD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3B6C53A31F48F251001201DD /* SCTabBarController.h */,
+				3B6C53A41F48F251001201DD /* SCTabBarController.m */,
+				3B6C53A61F4A3345001201DD /* SCHomeViewController.h */,
+				3B6C53A71F4A3345001201DD /* SCHomeViewController.m */,
+				3B6C53A81F4A3345001201DD /* SCHomeViewController.xib */,
+				3BB2FD261F4D2C9700EDC842 /* SCExploreViewController.h */,
+				3BB2FD271F4D2C9700EDC842 /* SCExploreViewController.m */,
+				3BB2FD281F4D2C9700EDC842 /* SCExploreViewController.xib */,
+				3B88A3AC1F4FDC5C00B4410E /* SCCreatePostViewController.h */,
+				3B88A3AD1F4FDC5C00B4410E /* SCCreatePostViewController.m */,
+				3B88A3AE1F4FDC5C00B4410E /* SCCreatePostViewController.xib */,
+				3B88A3B11F4FDEAE00B4410E /* SCSignInViewController.h */,
+				3B88A3B21F4FDEAE00B4410E /* SCSignInViewController.m */,
+				3B88A3B31F4FDEAE00B4410E /* SCSignInViewController.xib */,
+				3B88A3B61F4FE0FD00B4410E /* SCPostDetailViewController.h */,
+				3B88A3B71F4FE0FD00B4410E /* SCPostDetailViewController.m */,
+				3B88A3B81F4FE0FD00B4410E /* SCPostDetailViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		3B6C53B01F4A433B001201DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B6C53AB1F4A3C1C001201DD /* SCHomeTableViewCell.h */,
+				3B6C53AC1F4A3C1C001201DD /* SCHomeTableViewCell.m */,
+				3B6C53AD1F4A3C1C001201DD /* SCHomeTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		3BAD19D01F4697FA00DAC41C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +177,8 @@
 				3BAD19F51F4697FA00DAC41C /* SocialProjectTests */,
 				3BAD1A001F4697FA00DAC41C /* SocialProjectUITests */,
 				3BAD19DA1F4697FA00DAC41C /* Products */,
+				43ADD6C7D6ECD503CBECFB6B /* Pods */,
+				4ED53B3EEC7CA2D97D40255A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +195,14 @@
 		3BAD19DB1F4697FA00DAC41C /* SocialProject */ = {
 			isa = PBXGroup;
 			children = (
+				3BB2FD221F4D2ABB00EDC842 /* Manager */,
+				3B6C53B01F4A433B001201DD /* View */,
+				3B6C53A21F48F1BF001201DD /* ViewController */,
+				3BAD1A0F1F46980E00DAC41C /* Model */,
 				3BAD19DF1F4697FA00DAC41C /* AppDelegate.h */,
 				3BAD19E01F4697FA00DAC41C /* AppDelegate.m */,
 				3BAD19E21F4697FA00DAC41C /* ViewController.h */,
 				3BAD19E31F4697FA00DAC41C /* ViewController.m */,
-				3BAD19E51F4697FA00DAC41C /* Main.storyboard */,
 				3BAD19E81F4697FA00DAC41C /* Assets.xcassets */,
 				3BAD19EA1F4697FA00DAC41C /* LaunchScreen.storyboard */,
 				3BAD19ED1F4697FA00DAC41C /* Info.plist */,
@@ -140,6 +237,51 @@
 			path = SocialProjectUITests;
 			sourceTree = "<group>";
 		};
+		3BAD1A0F1F46980E00DAC41C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BAD1A101F46989B00DAC41C /* SCPost.h */,
+				3BAD1A111F46989B00DAC41C /* SCPost.m */,
+				3B88A3A91F4FD76100B4410E /* SCUser.h */,
+				3B88A3AA1F4FD76100B4410E /* SCUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BB2FD221F4D2ABB00EDC842 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3BB2FD231F4D2B3C00EDC842 /* SCLocationManager.h */,
+				3BB2FD241F4D2B3C00EDC842 /* SCLocationManager.m */,
+				3B88A3A61F4FD4A800B4410E /* SCPostManager.h */,
+				3B88A3A71F4FD4A800B4410E /* SCPostManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		43ADD6C7D6ECD503CBECFB6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F839BC88FA0467F363841315 /* Pods-SocialProject.debug.xcconfig */,
+				2F1DD6543EC974C83988073F /* Pods-SocialProject.release.xcconfig */,
+				FF7BA8C3708F5BF6732E9BF0 /* Pods-SocialProjectTests.debug.xcconfig */,
+				DDEDFF4D23CD51928FC45A42 /* Pods-SocialProjectTests.release.xcconfig */,
+				A798CD3F14DAD5729FD6A0D0 /* Pods-SocialProjectUITests.debug.xcconfig */,
+				9D8A3DE09A392FB91908883F /* Pods-SocialProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4ED53B3EEC7CA2D97D40255A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2779B852AE689892D66253C /* libPods-SocialProject.a */,
+				97F2003A0DB0C7953715E80A /* libPods-SocialProjectTests.a */,
+				DD9EC5EAD86C90CCE3F13803 /* libPods-SocialProjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BAD1A061F4697FA00DAC41C /* Build configuration list for PBXNativeTarget "SocialProject" */;
 			buildPhases = (
+				9F1417BE0C9C18E739B87ADD /* [CP] Check Pods Manifest.lock */,
 				3BAD19D51F4697FA00DAC41C /* Sources */,
 				3BAD19D61F4697FA00DAC41C /* Frameworks */,
 				3BAD19D71F4697FA00DAC41C /* Resources */,
+				1FD6D502B6C551F1F9878D22 /* [CP] Embed Pods Frameworks */,
+				C479447BC24E52E579B263ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BAD1A091F4697FA00DAC41C /* Build configuration list for PBXNativeTarget "SocialProjectTests" */;
 			buildPhases = (
+				F525BD5FC8496CD05D1CD12A /* [CP] Check Pods Manifest.lock */,
 				3BAD19EE1F4697FA00DAC41C /* Sources */,
 				3BAD19EF1F4697FA00DAC41C /* Frameworks */,
 				3BAD19F01F4697FA00DAC41C /* Resources */,
+				F754F3C8FA2C11C58B9CF2AF /* [CP] Embed Pods Frameworks */,
+				1D83B50914BD8E131EB1BC82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BAD1A0C1F4697FA00DAC41C /* Build configuration list for PBXNativeTarget "SocialProjectUITests" */;
 			buildPhases = (
+				B05AFD78821FACED537EAD2B /* [CP] Check Pods Manifest.lock */,
 				3BAD19F91F4697FA00DAC41C /* Sources */,
 				3BAD19FA1F4697FA00DAC41C /* Frameworks */,
 				3BAD19FB1F4697FA00DAC41C /* Resources */,
+				832CB8689F3206AA292578A7 /* [CP] Embed Pods Frameworks */,
+				ABE38DBC11CB967C09289C0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +400,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB2FD2A1F4D2C9700EDC842 /* SCExploreViewController.xib in Resources */,
+				3B6C53AA1F4A3345001201DD /* SCHomeViewController.xib in Resources */,
 				3BAD19EC1F4697FA00DAC41C /* LaunchScreen.storyboard in Resources */,
+				3B88A3B51F4FDEAE00B4410E /* SCSignInViewController.xib in Resources */,
+				3B6C53AF1F4A3C1C001201DD /* SCHomeTableViewCell.xib in Resources */,
+				3B88A3BA1F4FE0FD00B4410E /* SCPostDetailViewController.xib in Resources */,
+				3B88A3B01F4FDC5C00B4410E /* SCCreatePostViewController.xib in Resources */,
 				3BAD19E91F4697FA00DAC41C /* Assets.xcassets in Resources */,
-				3BAD19E71F4697FA00DAC41C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +427,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D83B50914BD8E131EB1BC82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialProjectTests/Pods-SocialProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD6D502B6C551F1F9878D22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialProject/Pods-SocialProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		832CB8689F3206AA292578A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialProjectUITests/Pods-SocialProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1417BE0C9C18E739B87ADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE38DBC11CB967C09289C0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialProjectUITests/Pods-SocialProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B05AFD78821FACED537EAD2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C479447BC24E52E579B263ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialProject/Pods-SocialProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F525BD5FC8496CD05D1CD12A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F754F3C8FA2C11C58B9CF2AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialProjectTests/Pods-SocialProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BAD19D51F4697FA00DAC41C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB2FD251F4D2B3C00EDC842 /* SCLocationManager.m in Sources */,
+				3B6C53AE1F4A3C1C001201DD /* SCHomeTableViewCell.m in Sources */,
+				3BB2FD291F4D2C9700EDC842 /* SCExploreViewController.m in Sources */,
 				3BAD19E41F4697FA00DAC41C /* ViewController.m in Sources */,
 				3BAD19E11F4697FA00DAC41C /* AppDelegate.m in Sources */,
+				3B88A3A81F4FD4A800B4410E /* SCPostManager.m in Sources */,
+				3B88A3AF1F4FDC5C00B4410E /* SCCreatePostViewController.m in Sources */,
 				3BAD19DE1F4697FA00DAC41C /* main.m in Sources */,
+				3B6C53A51F48F251001201DD /* SCTabBarController.m in Sources */,
+				3BAD1A121F46989B00DAC41C /* SCPost.m in Sources */,
+				3B6C53A91F4A3345001201DD /* SCHomeViewController.m in Sources */,
+				3B88A3B41F4FDEAE00B4410E /* SCSignInViewController.m in Sources */,
+				3B88A3AB1F4FD76100B4410E /* SCUser.m in Sources */,
+				3B88A3B91F4FE0FD00B4410E /* SCPostDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +628,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3BAD19E51F4697FA00DAC41C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BAD19E61F4697FA00DAC41C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3BAD19EA1F4697FA00DAC41C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,6 +733,7 @@
 		};
 		3BAD1A071F4697FA00DAC41C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F839BC88FA0467F363841315 /* Pods-SocialProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3XZ9V9M8T;
@@ -439,6 +746,7 @@
 		};
 		3BAD1A081F4697FA00DAC41C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1DD6543EC974C83988073F /* Pods-SocialProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3XZ9V9M8T;
@@ -451,6 +759,7 @@
 		};
 		3BAD1A0A1F4697FA00DAC41C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7BA8C3708F5BF6732E9BF0 /* Pods-SocialProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = E3XZ9V9M8T;
@@ -464,6 +773,7 @@
 		};
 		3BAD1A0B1F4697FA00DAC41C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEDFF4D23CD51928FC45A42 /* Pods-SocialProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = E3XZ9V9M8T;
@@ -477,6 +787,7 @@
 		};
 		3BAD1A0D1F4697FA00DAC41C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A798CD3F14DAD5729FD6A0D0 /* Pods-SocialProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = E3XZ9V9M8T;
 				INFOPLIST_FILE = SocialProjectUITests/Info.plist;
@@ -489,6 +800,7 @@
 		};
 		3BAD1A0E1F4697FA00DAC41C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8A3DE09A392FB91908883F /* Pods-SocialProjectUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = E3XZ9V9M8T;
 				INFOPLIST_FILE = SocialProjectUITests/Info.plist;
@@ -518,6 +830,7 @@
 				3BAD1A081F4697FA00DAC41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BAD1A091F4697FA00DAC41C /* Build configuration list for PBXNativeTarget "SocialProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +839,7 @@
 				3BAD1A0B1F4697FA00DAC41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BAD1A0C1F4697FA00DAC41C /* Build configuration list for PBXNativeTarget "SocialProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +848,7 @@
 				3BAD1A0E1F4697FA00DAC41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
